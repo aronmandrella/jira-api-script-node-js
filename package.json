@@ -1,8 +1,9 @@
 {
-	"name": "node-app",
+	"name": "jira-api-script-node-js",
 	"version": "1.0.0",
 	"private": true,
 	"scripts": {
+		"prettier-write": "prettier --ignore-path .gitignore --write .",
 		"prettier-check": "prettier --loglevel=log --ignore-path .gitignore --check .",
 		"eslint-check": "eslint --ignore-path .gitignore .",
 		"tsc-check": "tsc --pretty --noEmit --project tsconfig.json --incremental false",
@@ -11,7 +12,7 @@
 		"build": "webpack --config ./webpack.config.ts --mode production",
 		"start": "node dist/app.js --jira-base-url=https://herocoders.atlassian.net --jira-project-id=SP",
 		"build-start": "npm run build && npm run start",
-		"everything": "npm run prettier-check && npm run eslint-check && npm run tsc-check && npm run jest-check && npm run build && npm run start"
+		"everything": "npm run eslint-check && npm run tsc-check && npm run jest-check && npm run build && npm run start"
 	},
 	"dependencies": {
 		"@commander-js/extra-typings": "^10.0.3",

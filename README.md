@@ -1,4 +1,4 @@
-# Jira CLI script - Detection of components without a component lead
+# Jira NodeJS script - Detection of components without a component lead
 
 ## Installation
 
@@ -49,8 +49,12 @@ npm run everything
 
 ## Specification
 
-✔️ Uses NodeJS
-
 ✔️ Uses Jira REST API efficiently
 
-✔️ Has Jest tests
+✔️ Uses NodeJS
+
+✔️ Uses TypeScript
+
+✔️ Uses Webpack for bundling
+
+✔️ Tested with Jest
