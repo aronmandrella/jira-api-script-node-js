@@ -1,0 +1,52 @@
+{
+	"compileOnSave": false,
+	"files": ["./types.global.d.ts"],
+	"include": [],
+	"exclude": ["**/node_modules", "**/.git", "**/dist"],
+	"compilerOptions": {
+		"baseUrl": ".",
+		"rootDir": ".",
+		"target": "ES2021",
+		"module": "ESNext",
+		"importHelpers": true,
+		"sourceMap": true,
+		"declaration": true,
+		"removeComments": true,
+		"incremental": true,
+		"jsx": "preserve",
+		"noEmit": true,
+		"moduleResolution": "node",
+		"resolveJsonModule": true,
+		"esModuleInterop": true,
+		"lib": ["esnext"],
+		"types": ["node"],
+		"allowJs": true,
+		"checkJs": true,
+		"strict": true,
+		"isolatedModules": true,
+		"exactOptionalPropertyTypes": false,
+		"strictNullChecks": true,
+		"noUncheckedIndexedAccess": true,
+		"noImplicitAny": true,
+		"noImplicitReturns": true,
+		"preserveConstEnums": true,
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
+		"skipLibCheck": true,
+		"skipDefaultLibCheck": true,
+		"noPropertyAccessFromIndexSignature": false,
+		"noImplicitOverride": true,
+		"noFallthroughCasesInSwitch": true,
+		"allowUnusedLabels": false,
+		"forceConsistentCasingInFileNames": true,
+		"pretty": true
+	},
+	"ts-node": {
+		"require": ["tsconfig-paths/register"],
+		"transpileOnly": true,
+		"swc": true,
+		"compilerOptions": {
+			"module": "CommonJS"
+		}
+	}
+}

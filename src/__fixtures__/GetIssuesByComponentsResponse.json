@@ -1,0 +1,138 @@
+{
+	"expand": "schema,names",
+	"startAt": 0,
+	"maxResults": 50,
+	"total": 8,
+	"issues": [
+		{
+			"expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+			"id": "51268",
+			"self": "https://herocoders.atlassian.net/rest/api/3/issue/51268",
+			"key": "SP-164",
+			"fields": {
+				"components": [
+					{
+						"self": "https://herocoders.atlassian.net/rest/api/3/component/10131",
+						"id": "10131",
+						"name": "Templates"
+					}
+				]
+			}
+		},
+		{
+			"expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+			"id": "51266",
+			"self": "https://herocoders.atlassian.net/rest/api/3/issue/51266",
+			"key": "SP-162",
+			"fields": {
+				"components": [
+					{
+						"self": "https://herocoders.atlassian.net/rest/api/3/component/10128",
+						"id": "10128",
+						"name": "Synchronization"
+					}
+				]
+			}
+		},
+		{
+			"expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+			"id": "51265",
+			"self": "https://herocoders.atlassian.net/rest/api/3/issue/51265",
+			"key": "SP-161",
+			"fields": {
+				"components": [
+					{
+						"self": "https://herocoders.atlassian.net/rest/api/3/component/10131",
+						"id": "10131",
+						"name": "Templates"
+					}
+				]
+			}
+		},
+		{
+			"expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+			"id": "51263",
+			"self": "https://herocoders.atlassian.net/rest/api/3/issue/51263",
+			"key": "SP-159",
+			"fields": {
+				"components": [
+					{
+						"self": "https://herocoders.atlassian.net/rest/api/3/component/10128",
+						"id": "10128",
+						"name": "Synchronization"
+					}
+				]
+			}
+		},
+		{
+			"expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+			"id": "51262",
+			"self": "https://herocoders.atlassian.net/rest/api/3/issue/51262",
+			"key": "SP-158",
+			"fields": {
+				"components": [
+					{
+						"self": "https://herocoders.atlassian.net/rest/api/3/component/10129",
+						"id": "10129",
+						"name": "Frontend"
+					},
+					{
+						"self": "https://herocoders.atlassian.net/rest/api/3/component/10131",
+						"id": "10131",
+						"name": "Templates"
+					}
+				]
+			}
+		},
+		{
+			"expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+			"id": "51261",
+			"self": "https://herocoders.atlassian.net/rest/api/3/issue/51261",
+			"key": "SP-157",
+			"fields": {
+				"components": [
+					{
+						"self": "https://herocoders.atlassian.net/rest/api/3/component/10129",
+						"id": "10129",
+						"name": "Frontend"
+					},
+					{
+						"self": "https://herocoders.atlassian.net/rest/api/3/component/10131",
+						"id": "10131",
+						"name": "Templates"
+					}
+				]
+			}
+		},
+		{
+			"expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+			"id": "51259",
+			"self": "https://herocoders.atlassian.net/rest/api/3/issue/51259",
+			"key": "SP-155",
+			"fields": {
+				"components": [
+					{
+						"self": "https://herocoders.atlassian.net/rest/api/3/component/10130",
+						"id": "10130",
+						"name": "Backend"
+					}
+				]
+			}
+		},
+		{
+			"expand": "operations,versionedRepresentations,editmeta,changelog,renderedFields",
+			"id": "51256",
+			"self": "https://herocoders.atlassian.net/rest/api/3/issue/51256",
+			"key": "SP-152",
+			"fields": {
+				"components": [
+					{
+						"self": "https://herocoders.atlassian.net/rest/api/3/component/10131",
+						"id": "10131",
+						"name": "Templates"
+					}
+				]
+			}
+		}
+	]
+}

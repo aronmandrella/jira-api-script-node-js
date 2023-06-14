@@ -1,0 +1,64 @@
+{
+	/*
+		Prettier
+	*/
+	"editor.formatOnSave": true,
+	"editor.formatOnSaveMode": "file",
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"prettier.enable": true,
+	"prettier.configPath": "prettier.config.cjs",
+	"prettier.ignorePath": ".gitignore",
+	"prettier.requireConfig": true,
+	"prettier.useEditorConfig": false,
+
+	/*
+		Eslint
+	*/
+	"eslint.enable": true,
+	"eslint.quiet": false,
+	"eslint.format.enable": false,
+	"eslint.experimental.useFlatConfig": false,
+	"eslint.run": "onType",
+	"eslint.onIgnoredFiles": "warn",
+	"eslint.options": {
+		"ignorePath": ".gitignore"
+	},
+	"eslint.codeActionsOnSave.mode": "all",
+	"eslint.codeActionsOnSave.rules": [
+		"eqeqeq",
+		"prefer-const",
+		"prefer-template",
+		"spaced-comment",
+		"jsdoc/require-asterisk-prefix",
+		"jsdoc/tag-lines",
+		"unicorn/prefer-optional-catch-binding",
+		"unicorn/prefer-node-protocol",
+		"@typescript-eslint/consistent-type-imports",
+		"@typescript-eslint/consistent-type-exports",
+		"@typescript-eslint/lines-around-comment",
+		"import/no-duplicates",
+		"import/consistent-type-specifier-style"
+	],
+	"editor.codeActionsOnSave": {
+		"source.fixAll": false,
+		"source.fixAll.eslint": true
+	},
+
+	/*
+    Syntax highlight
+  */
+	"files.associations": {
+		"tsconfig.json": "jsonc",
+		"tsconfig.*.json": "jsonc",
+		".*ignore": "ignore"
+	},
+
+	/*
+		Spell check
+	*/
+	"cSpell.enabled": true,
+	"cSpell.caseSensitive": false,
+	"cSpell.language": "en",
+	"cSpell.checkOnlyEnabledFileTypes": false,
+	"cSpell.words": ["camelcase", "loglevel", "plusplus", "trivago"]
+}

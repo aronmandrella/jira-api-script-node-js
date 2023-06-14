@@ -1,0 +1,76 @@
+[
+	{
+		"self": "https://herocoders.atlassian.net/rest/api/3/component/10130",
+		"id": "10130",
+		"name": "Backend",
+		"assigneeType": "PROJECT_DEFAULT",
+		"realAssigneeType": "PROJECT_DEFAULT",
+		"isAssigneeTypeValid": false,
+		"project": "SP",
+		"projectId": 11349
+	},
+	{
+		"self": "https://herocoders.atlassian.net/rest/api/3/component/10129",
+		"id": "10129",
+		"name": "Frontend",
+		"lead": {
+			"self": "https://herocoders.atlassian.net/rest/api/3/user?accountId=6231a277867a4e0070963ebe",
+			"accountId": "6231a277867a4e0070963ebe",
+			"avatarUrls": {
+				"48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/AH-0.png",
+				"24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/AH-0.png",
+				"16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/AH-0.png",
+				"32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/AH-0.png"
+			},
+			"displayName": "Andres Hevia",
+			"active": true
+		},
+		"assigneeType": "PROJECT_DEFAULT",
+		"realAssigneeType": "PROJECT_DEFAULT",
+		"isAssigneeTypeValid": false,
+		"project": "SP",
+		"projectId": 11349
+	},
+	{
+		"self": "https://herocoders.atlassian.net/rest/api/3/component/10127",
+		"id": "10127",
+		"name": "Importers",
+		"lead": {
+			"self": "https://herocoders.atlassian.net/rest/api/3/user?accountId=61b0833eb43d5b006ac9b237",
+			"accountId": "61b0833eb43d5b006ac9b237",
+			"avatarUrls": {
+				"48x48": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/MS-2.png",
+				"24x24": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/MS-2.png",
+				"16x16": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/MS-2.png",
+				"32x32": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/initials/MS-2.png"
+			},
+			"displayName": "Marek Szczepański",
+			"active": true
+		},
+		"assigneeType": "PROJECT_DEFAULT",
+		"realAssigneeType": "PROJECT_DEFAULT",
+		"isAssigneeTypeValid": false,
+		"project": "SP",
+		"projectId": 11349
+	},
+	{
+		"self": "https://herocoders.atlassian.net/rest/api/3/component/10128",
+		"id": "10128",
+		"name": "Synchronization",
+		"assigneeType": "PROJECT_DEFAULT",
+		"realAssigneeType": "PROJECT_DEFAULT",
+		"isAssigneeTypeValid": false,
+		"project": "SP",
+		"projectId": 11349
+	},
+	{
+		"self": "https://herocoders.atlassian.net/rest/api/3/component/10131",
+		"id": "10131",
+		"name": "Templates",
+		"assigneeType": "PROJECT_DEFAULT",
+		"realAssigneeType": "PROJECT_DEFAULT",
+		"isAssigneeTypeValid": false,
+		"project": "SP",
+		"projectId": 11349
+	}
+]

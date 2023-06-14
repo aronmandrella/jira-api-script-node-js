@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`app e2e should succeed when CLI arguments are valid 1`] = `
+"Detecting Jira components without a component lead...
+
+• Jira base url: https://herocoders.atlassian.net
+• Jira project:  SP
+
+Script detected 3 component(s) without a project lead:
+
+[ID: 10130] Backend with 1 issue(s)
+[ID: 10128] Synchronization with 2 issue(s)
+[ID: 10131] Templates with 5 issue(s)
+"
+`;
+
+exports[`app mocked should correctly handle a case without components 1`] = `
+"Detecting Jira components without a component lead...
+
+• Jira base url: https://xxx.atlassian.net
+• Jira project:  XXX
+
+Script didn't detect any components without a project lead :)
+"
+`;
+
+exports[`app mocked should succeed when API responses are valid 1`] = `
+"Detecting Jira components without a component lead...
+
+• Jira base url: https://xxx.atlassian.net
+• Jira project:  XXX
+
+Script detected 3 component(s) without a project lead:
+
+[ID: 10130] Backend with 1 issue(s)
+[ID: 10128] Synchronization with 2 issue(s)
+[ID: 10131] Templates with 5 issue(s)
+"
+`;

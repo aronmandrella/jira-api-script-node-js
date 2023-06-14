@@ -1,0 +1,30 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# cache
+.cache
+.swc
+
+# .env files
+.env
+.env*
+.env*.local
+
+# package managers
+node_modules
+.pnp
+.pnp.js
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# builds
+dist
+*.tsbuildinfo
+
+# tests
+coverage
+
+# misc
+.DS_Store
+Thumbs.db
